@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="adam-eva.js"></script>
+</head>
+<body>
+<script>
+    let apple1 = new Apple(10)
+    let adam = new Human('Adam','Male',60)
+    // let eva = new Human(Eva,Femaal,50)
+
+    adam.saySomething('la la la')
+    adam.eat(apple1)
+    console.log(apple1.weight)
+    console.log(adam.humanweight)
+
+    adam.eat(apple1)
+    console.log(adam.humanweight)
+    adam.checkApple(apple1)
+    console.log(apple1.weight)
+    apple1.decreaseWeight()
+    console.log(apple1.weight)
+
+
+</script>
+</body>
+</html>
